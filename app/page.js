@@ -564,7 +564,7 @@ IMPORTANTE:
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: '',
         max_tokens: 3500,
         messages: [{ role: 'user', content: userContent }],
       })
@@ -890,7 +890,7 @@ Respondé SOLO con JSON válido (sin markdown, sin texto extra) con esta estruct
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
+        model: '',
         max_tokens: 3500,
         messages: [{ role: 'user', content: userContent }],
       })
