@@ -2,7 +2,7 @@
 // y evita problemas de CORS en móviles.
 
 export const runtime = 'edge';
-export const maxDuration = 30;
+export const maxDuration = 60;
 
 export async function POST(request) {
   try {
